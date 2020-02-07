@@ -1,0 +1,39 @@
+{
+  "name": "simple-react-template",
+  "version": "3.0.0",
+  "description": "A super simple react template",
+  "repository": "https://github.com/dasmikko/simple-react-template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development && webpack-dev-server --inline --watch --hot",
+    "start:prod": "set NODE_ENV=production && webpack-dev-server -p --inline --watch --hot",
+    "build": "set NODE_ENV=development && webpack",
+    "build:prod": "set NODE_ENV=production && webpack -p"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "import-glob-loader": "^1.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "svg-url-loader": "^3.0.3"
+  },
+  "dependencies": {
+    "rc-slider": "^9.2.1",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-media-player": "^0.7.9",
+    "style-loader": "^0.23.1"
+  }
+}

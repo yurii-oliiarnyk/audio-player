@@ -1,0 +1,25 @@
+.sb-play-stop-button {
+  border-radius: 50%;
+  background-color: #23ad64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin: 0 6px;
+
+  @media (min-width: 767px) {
+    width: 45px;
+    height: 45px;
+    margin: 0 12px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
